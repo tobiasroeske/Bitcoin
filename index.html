@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
     <script src="script.js"></script>
 </head>
 
-<body onload="loadCourse()">
+<body onload="init()">
     <h1>Bitcoin-Kurs</h1>
     <p>Der aktuelle Bitcoin Preis beträgt</p>
     <p id="course"></p>
@@ -17,7 +19,7 @@
         <canvas id="myChart"></canvas>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
        
 </body>
 
